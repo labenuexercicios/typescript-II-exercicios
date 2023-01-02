@@ -28,8 +28,8 @@ Desenvolva uma função para cada funcionalidade.
     - output: lista atualizada de products
     - exemplo de chamada:
         ```getAllProducts()```
-- queryProductsByName (busca por produtos baseado em um nome da lista de products)
-    - input: um parâmetro (query)
-    - output: lista de produtos com nomes iguais ou parecidos
+- getProductById (busca por produtos baseado em um id da lista de products)
+    - input: um parâmetro (idToSearch)
+    - output: o produto encontrado ou undefined
     - exemplo de chamada:
-        ```queryProducts("monitor")```
+        ```getProductById("p004")```
