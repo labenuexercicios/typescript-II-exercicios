@@ -22,13 +22,13 @@ Desenvolva uma função para cada funcionalidade.
     - input: três parâmetros (id, name, price e category)
     - output: frase de sucesso ("Produto criado com sucesso")
     - exemplo de chamada:
-        ```createUser("u003", "beltrano@email.com", "beltrano99")```
-- getAllUsers (busca todas as pessoas da lista de users)
+        ```createProduct("p004", "Monitor HD", 800, PRODUCT_CATEGORY.ELETRONICS)```
+- getAllProducts (busca todos os produtos da lista de products)
     - input: nenhum
-    - output: lista atualizada de users
+    - output: lista atualizada de products
     - exemplo de chamada:
-        ```getAllUsers()```
-- queryProductsByName (busca por produtos baseado em um nome)
+        ```getAllProducts()```
+- queryProductsByName (busca por produtos baseado em um nome da lista de products)
     - input: um parâmetro (query)
     - output: lista de produtos com nomes iguais ou parecidos
     - exemplo de chamada:
