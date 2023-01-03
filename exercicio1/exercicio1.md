@@ -5,9 +5,9 @@ Vamos refatorar nosso type de product para utilizar enum na propriedade category
 ## Refatore o type da entidade product no types.ts
 - lembre-se de referenciar o material assíncrono
 - utilize um enum para definir pelo menos 3 categorias (você pode escolher, mas deixamos alguns exemplos abaixo)
-    - Accessories = "Acessórios",
-    - ClothesAndShoes = "Roupas e calçados",
-    - Electronics = "Eletrônicos"
+    - ACCESSORIES = "Acessórios",
+    - CLOTHES_AND_SHOES = "Roupas e calçados",
+    - ELECTRONICS = "Eletrônicos"
 
 ## Refatore o mock de products no database.ts
 - com a mudança acima no type, o array de products começará a dar erro
