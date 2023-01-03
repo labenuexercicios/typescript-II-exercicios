@@ -9,7 +9,7 @@ Desenvolva uma função para cada funcionalidade.
     - input: um parâmetro (query)
     - output: lista de produtos com nomes iguais ou parecidos
     - exemplo de chamada:
-        ```queryProducts("monitor")```
+        ```queryProductsByName("monitor")```
 
 ### Purchase
 - createPurchase (cria uma nova compra na lista de purchases)
