@@ -4,7 +4,8 @@ No arquivo database.ts temos os mocks dos dados da aplicação, mas por enquanto
 
 ## Funcionalidades
 Desenvolva uma função para cada funcionalidade. Você pode colocá-las no arquivo database.ts.<br>
-Chame cada uma no index.ts e verifique se estão funcionando dando console.log.
+Chame cada uma no index.ts e verifique se estão funcionando dando console.log.<br>
+Não se preocupe em validar os dados por enquanto, desenvolva apenas os casos de sucesso (caminho feliz).
 
 ### User
 - createUser (cria uma nova pessoa na lista de users)
