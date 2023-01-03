@@ -10,5 +10,5 @@ Vamos refatorar nosso type de product para utilizar enum na propriedade category
     - ELECTRONICS = "Eletrônicos"
 
 ## Refatore o mock de products no database.ts
-- com a mudança acima no type, o array de products começará a dar erro
+- com a mudança acima no type, o array de products no database.ts começará a dar erro
 - corrija atribuindo o valor do enum à propriedade category dos objetos
