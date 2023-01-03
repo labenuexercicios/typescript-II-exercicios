@@ -3,7 +3,8 @@ Agora podemos praticar a manipulação de arrays e objetos!<br>
 No arquivo database.ts temos os mocks dos dados da aplicação, mas por enquanto eles estão totalmente inérteis e sem dinamicidade.<br>
 
 ## Funcionalidades
-Desenvolva uma função para cada funcionalidade. Você pode colocá-las no arquivo index.ts e ir testando-as com o script de start.
+Desenvolva uma função para cada funcionalidade. Você pode colocá-las no arquivo database.ts.<br>
+Chame cada uma no index.ts e verifique se estão funcionando dando console.log.
 
 ### User
 - createUser (cria uma nova pessoa na lista de users)
