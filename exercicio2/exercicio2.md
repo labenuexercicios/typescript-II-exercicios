@@ -24,7 +24,7 @@ Não se preocupe em validar os dados por enquanto, desenvolva apenas os casos de
     - input: três parâmetros (id, name, price e category)
     - output: frase de sucesso ("Produto criado com sucesso")
     - exemplo de chamada:
-        ```createProduct("p004", "Monitor HD", 800, PRODUCT_CATEGORY.ELETRONICS)```
+        ```createProduct("p004", "Monitor HD", 800, PRODUCT_CATEGORY.ELECTRONICS)```
 - getAllProducts (busca todos os produtos da lista de products)
     - input: nenhum
     - output: lista atualizada de products
