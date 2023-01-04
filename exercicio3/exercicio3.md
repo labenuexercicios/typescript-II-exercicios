@@ -8,6 +8,7 @@ Desenvolva uma função para cada funcionalidade.
 - queryProductsByName (busca por produtos baseado em um nome da lista de products)
     - input: um parâmetro (query = pode ser abreviado em q)
     - output: lista de produtos com nomes que contenham o termo de busca
+    - extra: o resultado da busca deve ser case insensitive
     - exemplo de chamada:
         ```queryProductsByName("monitor")```
 
