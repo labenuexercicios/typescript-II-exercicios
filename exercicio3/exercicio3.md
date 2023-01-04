@@ -6,8 +6,8 @@ Desenvolva uma função para cada funcionalidade.
 
 ### Product
 - queryProductsByName (busca por produtos baseado em um nome da lista de products)
-    - input: um parâmetro (query)
-    - output: lista de produtos com nomes iguais ou parecidos
+    - input: um parâmetro (query = pode ser abreviado em q)
+    - output: lista de produtos com nomes que contenham o termo de busca
     - exemplo de chamada:
         ```queryProductsByName("monitor")```
 
