@@ -21,7 +21,7 @@ Não se preocupe em validar os dados por enquanto, desenvolva apenas os casos de
 
 ### Product
 - createProduct (cria um novo produto na lista de products)
-    - input: três parâmetros (id, name, price e category)
+    - input: quatro parâmetros (id, name, price e category)
     - output: frase de sucesso ("Produto criado com sucesso")
     - exemplo de chamada:
         ```createProduct("p004", "Monitor HD", 800, PRODUCT_CATEGORY.ELECTRONICS)```
