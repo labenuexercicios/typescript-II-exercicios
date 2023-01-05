@@ -1,5 +1,5 @@
 # Exercício 3
-Mesmo fluxo que o exercício 2.<br>
+Mesmo fluxo do exercício 2.<br>
 
 ## Funcionalidades
 Desenvolva uma função para cada funcionalidade.
