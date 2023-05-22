@@ -1,10 +1,17 @@
 # Exercício 2
-Mesmo fluxo do exercício 2. Agora temos uma funcionalidade de busca baseada em um termo.<br>
+Mesmo fluxo do exercício 1.<br>
+
+## Funcionalidades
+Desenvolva uma função para cada funcionalidade.
 
 ### Product
-- searchProductsByName (busca por produtos baseada em seu nome através de um argumento)
-    - input: um parâmetro (name)
-    - output: lista de produtos com nomes que contenham o termo de busca
-        - extra: o resultado da busca deve ser case insensitive
+- createProduct (cria um novo produto na lista de products)
+    - input: quatro parâmetros (id, name, price, description e imageUrl)
+    - output: frase de sucesso ("Produto criado com sucesso")
     - exemplo de chamada:
-        ```searchProductsByName("gamer")```
+        ```createProduct("prod003", "SSD gamer", 349.99, "Acelere seu sistema com velocidades incríveis de leitura e gravação.")```
+- getAllProducts (busca todos os produtos da lista de products)
+    - input: nenhum
+    - output: lista atualizada de products
+    - exemplo de chamada:
+        ```getAllProducts()```
