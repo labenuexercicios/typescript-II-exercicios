@@ -36,8 +36,3 @@ Não se preocupe em validar os dados por enquanto (se email é válido ou preço
     - output: lista atualizada de products
     - exemplo de chamada:
         ```getAllProducts()```
-- searchProductsByName (busca por produtos baseada em seu nome através de um argumento)
-    - input: um parâmetro (name)
-    - output: lista com produtos encontrados baseado no nome recebido
-    - exemplo de chamada:
-        ```searchProductsByName("gamer")```
