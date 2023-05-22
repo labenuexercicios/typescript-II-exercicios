@@ -24,15 +24,3 @@ Não se preocupe em validar os dados por enquanto (se email é válido ou preço
     - output: lista atualizada de users
     - exemplo de chamada:
         ```getAllUsers()```
-
-### Product
-- createProduct (cria um novo produto na lista de products)
-    - input: quatro parâmetros (id, name, price, description e imageUrl)
-    - output: frase de sucesso ("Produto criado com sucesso")
-    - exemplo de chamada:
-        ```createProduct("prod003", "SSD gamer", 349.99, "Acelere seu sistema com velocidades incríveis de leitura e gravação.")```
-- getAllProducts (busca todos os produtos da lista de products)
-    - input: nenhum
-    - output: lista atualizada de products
-    - exemplo de chamada:
-        ```getAllProducts()```
