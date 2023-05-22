@@ -1,4 +1,4 @@
-# Exercício 3
+# Exercício 2
 Mesmo fluxo do exercício 2. Agora temos uma funcionalidade de busca baseada em um termo.<br>
 
 ### Product
