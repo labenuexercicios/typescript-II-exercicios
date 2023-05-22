@@ -1,14 +1,43 @@
+# Antes de começar
+Vimos usos mais complexos do type e também um novo tipo chamado enum.
+Esses conceitos serão aplicados mais pra frente, quando estivermos com mais ferramentas disponíveis, e por isso não iremos implementá-los nesse momento. Mas não se preocupe, você terá a oportunidade de praticá-los no próximo projeto.
+
 # Exercício 1
-Hoje vimos alguns usos mais complexos do type e também como declarar enum.<br>
-Vamos refatorar nosso type de product para utilizar enum na propriedade category.
+O foco aqui é praticar a manipulação de arrays e objetos!<br>
+No arquivo database.ts temos os mocks dos dados da aplicação, mas por enquanto eles estão totalmente inérteis e sem dinamicidade.<br>
 
-## Refatore o type da entidade product no types.ts
-- lembre-se de referenciar o material assíncrono
-- utilize um enum para definir pelo menos 3 categorias (você pode escolher, mas deixamos alguns exemplos abaixo)
-    - ACCESSORIES = "Acessórios",
-    - CLOTHES_AND_SHOES = "Roupas e calçados",
-    - ELECTRONICS = "Eletrônicos"
+## Funcionalidades
+Desenvolva uma função para cada funcionalidade.
+Você pode implementá-las dentro do arquivo ```src/database.ts``` e exportá-las para serem utilizadas no ```src/index.ts```.<br>
+Chame cada uma no index.ts e verifique se estão funcionando dando console.log.<br>
+Não se preocupe em validar os dados por enquanto (se email é válido ou preço do produto é maior que 0), desenvolva somente os casos de sucesso (caminho feliz, onde todos os dados são válidos).
 
-## Refatore o mock de products no database.ts
-- com a mudança acima no type, o array de products no database.ts começará a dar erro
-- corrija atribuindo o valor do enum à propriedade category dos objetos
+### User
+- createUser (cria uma nova pessoa na lista de users)
+    - input: três parâmetros (id, name, email e password)
+        - o createdAt é gerado automaticamente pelo código com ```new Date().toISOString()```
+    - output: frase de sucesso ("Cadastro realizado com sucesso")
+    - exemplo de chamada:
+        ```createUser("u003", "Astrodev", "astrodev@email.com", "astrodev99")```
+- getAllUsers (busca todas as pessoas da lista de users)
+    - input: nenhum
+    - output: lista atualizada de users
+    - exemplo de chamada:
+        ```getAllUsers()```
+
+### Product
+- createProduct (cria um novo produto na lista de products)
+    - input: quatro parâmetros (id, name, price, description e imageUrl)
+    - output: frase de sucesso ("Produto criado com sucesso")
+    - exemplo de chamada:
+        ```createProduct("prod003", "SSD gamer", 349.99, "Acelere seu sistema com velocidades incríveis de leitura e gravação.")```
+- getAllProducts (busca todos os produtos da lista de products)
+    - input: nenhum
+    - output: lista atualizada de products
+    - exemplo de chamada:
+        ```getAllProducts()```
+- searchProductsByName (busca por produtos baseada em seu nome através de um argumento)
+    - input: um parâmetro (name)
+    - output: lista com produtos encontrados baseado no nome recebido
+    - exemplo de chamada:
+        ```searchProductsByName("gamer")```
