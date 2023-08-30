@@ -14,7 +14,7 @@ Não se preocupe em validar os dados por enquanto (se email é válido ou preço
 
 ### User
 - createUser (cria uma nova pessoa na lista de users)
-    - input: três parâmetros (id, name, email e password)
+    - input: quatro parâmetros (id, name, email e password)
         - o createdAt é gerado automaticamente pelo código com ```new Date().toISOString()```
     - output: frase de sucesso ("Cadastro realizado com sucesso")
     - exemplo de chamada:
