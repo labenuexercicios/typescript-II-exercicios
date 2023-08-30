@@ -6,10 +6,10 @@ Desenvolva uma função para cada funcionalidade.
 
 ### Product
 - createProduct (cria um novo produto na lista de products)
-    - input: quatro parâmetros (id, name, price, description e imageUrl)
+    - input: cinco parâmetros (id, name, price, description e imageUrl)
     - output: frase de sucesso ("Produto criado com sucesso")
     - exemplo de chamada:
-        ```createProduct("prod003", "SSD gamer", 349.99, "Acelere seu sistema com velocidades incríveis de leitura e gravação.")```
+        ```createProduct("prod003", "SSD gamer", 349.99, "Acelere seu sistema com velocidades incríveis de leitura e gravação.", "https://images.unsplash.com/photo")```
 - getAllProducts (busca todos os produtos da lista de products)
     - input: nenhum
     - output: lista atualizada de products
